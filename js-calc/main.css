@@ -1,0 +1,51 @@
+.calculator{
+  background: green;
+  width: 257px;
+  height: auto;
+  padding: 10px 10px 0px 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+table{
+  margin: 0 auto;
+}
+
+div.display{
+  height: 70px;
+  width: 100%;
+  text-align: right;
+}
+
+div.display-in{
+  margin: 0 auto;
+  border-radius: 10px;
+  background: grey;
+  width: 237px;
+}
+
+span.display-val{
+  margin-right: 7px;
+  font-size: 45px;
+}
+
+span.display-prog{
+  margin-right: 7px;
+  font-size: 15px;
+}
+
+div.buttons{
+  /*margin-top: 20px;*/
+}
+
+div.buttons tr{
+  margin-top: 5px;
+}
+
+div.buttons td{
+  border-radius: 10px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  background: yellow;
+}
