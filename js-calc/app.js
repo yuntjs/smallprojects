@@ -75,12 +75,12 @@ $(document).ready(function(){
           currentFormula = currentFormula.slice(0,currentFormula.length - temp.length);
           temp = "";
         }
-
         newInput = true;
         clearMain();
         refreshMainView();
 
         if(calculated){
+          beginning = true;
           calculated = false;
           restartMain();
           restartFormula();
