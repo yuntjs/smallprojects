@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <title>JS Calculator</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="style.js">
+    </script>
   </head>
   <body>
 
@@ -11,10 +17,10 @@
         <div class="display">
           <div class="display-in">
             <section>
-              <span class="display-val">2999</span>
+              <span class="display-val">0</span>
             </section>
             <section>
-              <span class="display-prog">19+29+23</span>
+              <span class="display-prog">0</span>
             </section>
           </div>
 
@@ -25,30 +31,30 @@
           <tr>
             <td id="ac">AC</td>
             <td id="ce">CE</td>
-            <td id="div">/</td>
-            <td id="mul">*</td>
+            <td id="/">/</td>
+            <td id="*">*</td>
           </tr>
           <tr>
             <td id="7">7</td>
             <td id="8">8</td>
             <td id="9">9</td>
-            <td>-</td>
+            <td id="-">-</td>
           </tr>
           <tr>
             <td id="4">4</td>
             <td id="5">5</td>
             <td id="6">6</td>
-            <td id="plu">+</td>
+            <td id="+">+</td>
           </tr>
           <tr>
             <td id="1">1</td>
             <td id="2">2</td>
             <td id="3">3</td>
-            <td id="eql" rowspan="2">=</td>
+            <td id="=" rowspan="2">=</td>
           </tr>
           <tr>
             <td id="0" colspan="2">0</td>
-            <td id="dec">.</td>
+            <td id=".">.</td>
           </tr>
         </table>
       </div>
